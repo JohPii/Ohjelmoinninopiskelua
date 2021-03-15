@@ -12,3 +12,15 @@ else {
   console.log("Positiivinen luku!");
 }
 }
+
+function viikonPaiva() {
+
+nro = document.getElementById("nro").value;
+
+if ( nro < 1 ) {
+
+
+}
+
+
+}
