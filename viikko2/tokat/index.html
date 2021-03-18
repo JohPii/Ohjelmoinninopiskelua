@@ -12,9 +12,10 @@
     <h1>Ehto2lauseita1</h1>
     <p>Anna luku ja ohjelma katsoo, onko se positiivinen vai negatiivinen.</p>
   <form class="" action="index.html" method="post">
-      <p>Anna luku: <input type="text" id="luku1" value=""></p>
-  <p><button type="button" name="button" onclick="posNeg();">Paina tästä</button></p>
+      <p>Anna luku: <input type="text" id="nro1" value=""></p>
+  <button type="button" name="button" onclick="posNeg();">Paina tästä</button>
   </form>
+  <p id="vastaus1"></p>
   </section>
 
   <section class="muokkaus" id="kaksi">
@@ -24,6 +25,7 @@
           <p>Anna numero väliltä 1-7: <input type="text" id="nro" value=""></p>
         <p><button type="button" name="button" onclick="viikonPaiva();">Viikonpäivä on...</button></p>
     </form>
+    <p id="vastaus2"></p>
   </section>
 
   <section class="muokkaus" id="yksi">
@@ -33,6 +35,7 @@
       <p>Anna vuosiluku: <input type="text" id="luku" value=""></p>
       <p><button type="button" name="button" onclick="vuosiLuku()">Paina tästä</button></p>
     </form>
+    <p id="vastaus3"></p>
   </section>
 
   <section class="muokkaus" id="kaksi">
@@ -47,13 +50,14 @@
 
 <p><button type="button" name="button" onclick="summat()">Paina tästä</button></p>
     </form>
+    <p id="vastaus4"></p>
   </section>
 
   <section class="muokkaus" id="yksi">
     <h1>Ehto2lauseita5</h1>
-    <p>Anna mikä tahansa luku.</p>
+    <p>Anna mikä tahansa luku niin ohjelma näyttää sinulle kertotaulu-taikatempun.</p>
     <form class="" action="index.html" method="post">
-      <p>Anna luku: <input type="text" id="luku1" value=""></p>
+      <p>Anna luku: <input type="text" id="number1" value=""></p>
     </select>
   <p><button type="button" name="button" onclick="lauseMuuttuja()">Taikatemppu!</button></p>
   </form>
