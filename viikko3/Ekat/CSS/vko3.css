@@ -1,0 +1,45 @@
+body {
+background-color: black;
+padding: 10px;
+margin: 5px;
+text-align: center;
+color: white;
+}
+
+.muokkaus {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  color: black;
+  font-family: fantasy;
+
+}
+
+#yksi {
+  padding: 5px;
+  border: 3px solid white;
+  background-color: #808080;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#kaksi {
+  padding: 5px;
+  border: 3px solid white;
+  background-color: #D3D3D3;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+button {
+  color: black cursive;
+  background-color: #008fb3;
+  padding: 10px;
+}
+
+.footteri {
+  color: white;
+  text-align: center;
+}
