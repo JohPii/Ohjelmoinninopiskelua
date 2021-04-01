@@ -4,6 +4,7 @@ padding: 10px;
 margin: 5px;
 text-align: center;
 color: white;
+font-family: 'Gloria Hallelujah', cursive;
 }
 
 .muokkaus {
@@ -14,7 +15,11 @@ color: white;
   width: 45%;
   color: black;
   font-family: fantasy;
+}
 
+.pikkuotsikko {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 22;
 }
 
 #yksi {
@@ -37,9 +42,11 @@ button {
   color: black cursive;
   background-color: #008fb3;
   padding: 10px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .footteri {
   color: white;
   text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
 }
