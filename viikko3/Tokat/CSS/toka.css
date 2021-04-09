@@ -7,7 +7,6 @@ margin: 5px;
 text-align: center;
 color: black;
 font-family: 'Walter Turncoat', cursive;
-
 }
 
 .muokkaus {
@@ -24,6 +23,11 @@ font-family: 'Walter Turncoat', cursive;
   font-family: 'Unkempt', cursive;
   font-size: 22;
   text-decoration: underline;
+}
+
+#muoks {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #yksi {
