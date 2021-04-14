@@ -22,7 +22,12 @@ function viikonPaiva() {
 nro = document.getElementById("nro").value;
 
 var vastaus = " ";
-switch(nro){
+if (nro > 7) {
+  alert("Anna numero väliltä 1-7!")
+}
+else
+{
+switch(nro) {
   case "1":
   vastaus = "Maanantai";
   break;
@@ -44,6 +49,7 @@ switch(nro){
   default:
   vastaus ="Sunnuntai";
   break;
+}
 }
 //tulostaa vastauksen eli liitetään vastaus-sanaan
 alert(vastaus);
